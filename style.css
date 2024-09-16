@@ -1,0 +1,148 @@
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: aquamarine;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+}
+form{
+    margin-left: auto;
+    background-color: rgb(103, 214, 168);
+    width: 50%;
+    margin-right: 25%;
+    border: #333 solid 10px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+#info{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: #333 solid 2px; 
+    border-radius: 50px;
+    margin-top: 20px;
+}
+legend{
+    font-size: 25px;
+    font-weight: bold;
+}
+input{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 60%;
+    background-color: #c2bbbb;
+    border-radius: 10px;
+    border: #333 solid 1px;
+    margin:auto;
+
+    
+}
+input:hover{
+    background-color: #ddd;
+    border: #333 solid 3px;
+    border-radius: 10px;
+}
+
+#education{
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: #333 solid 2px; 
+    border-radius: 50px;
+    margin-top: 20px;
+}
+#educationt{
+    margin-right: 100%;
+    width: 80%;
+    font-size: 20px;
+    border: #333 solid 1px;
+    border-radius: 10px;
+    background-color: #c2bbbb;
+    
+}
+#educationt:hover{
+    background-color: #ddd;
+    border: #333 solid 3px;
+    border-radius: 10px;
+}
+
+#experience{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: #333 solid 2px; 
+    border-radius: 50px;
+    margin-top: 20px;
+}
+#workExperience{
+    margin-right: 100%;
+    width: 80%;
+    font-size: 20px;
+    border: #333 solid 1px;
+    border-radius: 10px;
+    background-color: #c2bbbb;
+    
+}
+#workExperience:hover{
+    background-color: #ddd;
+    border: #333 solid 3px;
+    border-radius: 10px;
+}
+
+#button{
+    width: 40%;
+margin-left: 27%;
+margin-top: 15px;
+    
+    height: 50px;
+    background-color:black;
+    border: white solid 1px;
+    color: #ddd;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+#button:hover{
+    border:white solid 3px;
+}
+
+#skills{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: #333 solid 2px; 
+    border-radius: 50px;
+    margin-top: 20px;
+}
+#Skills{
+    margin-right: 100%;
+    width: 80%;
+    font-size: 20px;
+    border: #333 solid 1px;
+    border-radius: 10px;
+    background-color: #c2bbbb;
+    
+}
+
+#Skills:hover{
+    background-color: #ddd;
+    border: #333 solid 3px;
+    border-radius: 10px;
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: #333 solid 2px;
+    border-radius: 10px;
+    background-color: #c2bbbb;
+    font-size: 20px;
+}
+
+#resumeOutput h2{
+    color: #333;
+}
+
+
+  
