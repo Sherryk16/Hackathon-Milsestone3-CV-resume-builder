@@ -1,138 +1,100 @@
-body{
- font-family: Arial, Helvetica, sans-serif;
- background-color: aquamarine;
+/* General styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+h1 {
+    font-family: Impact, sans-serif;
     font-size: 50px;
     color: #333;
     text-align: center;
 }
-form{
-    margin-left: auto;
+
+/* Responsive form */
+form {
     background-color: rgb(103, 214, 168);
-    width: 50%;
-    margin-right: 25%;
+    width: 90%;
+    margin: 20px auto;
     border: #333 solid 10px;
     border-radius: 50px;
     padding: 20px;
 }
 
-#info{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
-    border: #333 solid 2px; 
-    border-radius: 50px;
-    margin-top: 20px;
-}
-legend{
+legend {
     font-size: 25px;
     font-weight: bold;
 }
-input{
-    margin-bottom: 20px;
+
+/* Input fields */
+input {
+    width: 90%;
+    margin: 10px 0;
     padding: 10px;
-    width: 60%;
     background-color: #c2bbbb;
     border-radius: 10px;
     border: #333 solid 1px;
-    margin:auto;
-
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-input:hover{
+
+input:hover {
     background-color: #ddd;
     border: #333 solid 3px;
-    border-radius: 10px;
 }
 
-#education{
-
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
-    border: #333 solid 2px; 
-    border-radius: 50px;
-    margin-top: 20px;
-}
-#educationt{
-    margin-right: 100%;
-    width: 80%;
-    font-size: 20px;
-    border: #333 solid 1px;
-    border-radius: 10px;
-    background-color: #c2bbbb;
-    
-}
-#educationt:hover{
-    background-color: #ddd;
-    border: #333 solid 3px;
-    border-radius: 10px;
-}
-
-#experience{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
-    border: #333 solid 2px; 
-    border-radius: 50px;
-    margin-top: 20px;
-}
-#workExperience{
-    margin-right: 100%;
-    width: 80%;
-    font-size: 20px;
-    border: #333 solid 1px;
-    border-radius: 10px;
-    background-color: #c2bbbb;
-    
-}
-#workExperience:hover{
-    background-color: #ddd;
-    border: #333 solid 3px;
-    border-radius: 10px;
-}
-
-#button{
-    width: 40%;
-margin-left: 27%;
-margin-top: 15px;
-    
+/* Button */
+#button {
+    width: 50%;
+    margin: 15px auto;
+    display: block;
     height: 50px;
-    background-color:black;
-    border: white solid 1px;
+    background-color: black;
     color: #ddd;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, sans-serif;
     font-size: large;
-}
-#button:hover{
-    border:white solid 3px;
+    border: white solid 1px;
 }
 
-#skills{
-    font-family:'Times New Roman', Times, serif;
+#button:hover {
+    border: white solid 3px;
+}
+
+/* Section styling */
+#info, #education, #experience, #skills {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    border: #333 solid 2px; 
+    border: #333 solid 2px;
     border-radius: 50px;
     margin-top: 20px;
 }
-#Skills{
-    margin-right: 100%;
-    width: 80%;
-    font-size: 20px;
-    border: #333 solid 1px;
-    border-radius: 10px;
+
+/* Input field style */
+#educationt, #workExperience, #Skills {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
     background-color: #c2bbbb;
-    
+    border-radius: 10px;
+    border: #333 solid 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#Skills:hover{
+#educationt:hover, #workExperience:hover, #Skills:hover {
     background-color: #ddd;
     border: #333 solid 3px;
-    border-radius: 10px;
 }
 
-#resumeOutput{
-    max-width: 600px;
-    margin: auto;
+/* Resume output styling */
+#resumeOutput {
+    max-width: 90%;
+    margin: 20px auto;
     padding: 20px;
     border: #333 solid 2px;
     border-radius: 10px;
@@ -140,9 +102,22 @@ margin-top: 15px;
     font-size: 20px;
 }
 
-#resumeOutput h2{
-    color: #333;
+/* Responsive adjustments for larger screens */
+@media (min-width: 768px) {
+    form {
+        width: 70%;
+    }
+    input, #educationt, #workExperience, #Skills {
+        width: 80%;
+    }
 }
 
+@media (min-width: 1024px) {
+    form {
+        width: 50%;
+    }
+    input, #educationt, #workExperience, #Skills {
+        width: 60%;
+    }
+}
 
-  
